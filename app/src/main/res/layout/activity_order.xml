@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.papyrus.mobile.tms_mobile.OrderActivity">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:isScrollContainer="true"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="110dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:text="Статус:"
+                        android:textColor="#228B22"
+                        tools:text="Статус" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="textView2"
+                        android:textColor="@color/colorAccent" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="110dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textWarehouseLabel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Склад:"
+                        android:textColor="#228B22"
+                        tools:text="Склад" />
+
+                    <TextView
+                        android:id="@+id/textWarehouse"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="textWarehouse"
+                        android:textColor="@color/colorAccent" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="110dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textКindOfLabel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Вид:"
+                        android:textColor="#228B22"
+                        tools:text="Вид" />
+
+                    <TextView
+                        android:id="@+id/textКindOf"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="textКindOf"
+                        android:textColor="@color/colorAccent" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/tvDesCustomer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:lineSpacingExtra="18sp"
+                android:text="Контрагент:"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                tools:text="Контрагент:" />
+
+            <TextView
+                android:id="@+id/tvCustomer"
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:text="tvCustomer"
+                android:textColor="#FF1493"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/tvDesAdress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Адрес:"
+                android:textColor="#000000"
+                tools:text="Адрес:" />
+
+
+            <TextView
+                android:id="@+id/tvAdress"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:text="tvAdress"
+                android:textColor="#FF1493"
+                android:textIsSelectable="true" />
+
+
+            <TextView
+                android:id="@+id/tvDescriptoin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Примітка:"
+                android:textColor="#000000"
+                tools:text="Примітка:" />
+
+            <TextView
+                android:id="@+id/tvNotation"
+                android:layout_width="match_parent"
+                android:layout_height="102dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:text="tvNotation"
+                android:textColor="#FF1493"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tvContactPersonDescriptoin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Контактна особа:"
+                android:textColor="#000000"
+                tools:text="Контактна особа:" />
+
+            <TextView
+                android:id="@+id/tvContactPerson"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:text="tvContactPerson"
+                android:textColor="#FF1493"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/tvDesManager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Менеджер:"
+                android:textColor="#000000"
+                tools:text="Менеджер:" />
+
+            <TextView
+                android:id="@+id/tvManager"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:text="tvManager"
+                android:textColor="#FF1493" />
+
+            <fragment
+                android:id="@+id/map"
+                android:name="com.google.android.gms.maps.MapFragment"
+                android:layout_width="fill_parent"
+                android:layout_height="338dp"
+                android:layout_marginBottom="60dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="285dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

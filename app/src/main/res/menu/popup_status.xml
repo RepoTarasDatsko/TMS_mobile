@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_done"
+        android:title="Виконано" />
+    <item android:id="@+id/menu_delayed"
+        android:title="Відкладено" />
+    <item android:id="@+id/on_the_way"
+        android:title="В дорозі" />
+    <item android:id="@+id/position_change"
+        android:title="№ позиції" />
+
+</menu>
