@@ -14,10 +14,8 @@ import com.google.gson.internal.LinkedTreeMap;
 public class DataLoader extends AsyncTask<String, Void, SoapObject> {
 
     public SoapObject Result;
-    private static final String NAMESPACE = "http://www.papyrus.tms_mobile-package.org";
-    //private static final String URL = "http://212.90.177.62:88/TMS/ws/TMSMobile.1cws";
-    private static final String URL = "http://93.170.114.42:99/TMS/ws/TMSMobile.1cws";
-    //private static final String URL = "http://212.90.177.62:98/TMSTEST/ws/TMSMobile.1cws";
+    private static final String NAMESPACE = "http://My.org";
+    private static final String URL = "http://My.org/TMS/ws/TMSMobile.1cws";  
     private static final String WEB_SERVICE = "#TMSMobile:";
     private static final String SOAP_ACTION = NAMESPACE + WEB_SERVICE;
 
