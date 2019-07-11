@@ -29,7 +29,7 @@ public class MapViewActivity extends AppCompatActivity implements OnMapReadyCall
     Button toolBarRoute;
     private Context context;
 
-    private static final String MAP_VIEW_BUNDLE_KEY = "AIzaSyCkWTss7HhcxJVDl1VCIkN8YHDojYHvo2Y";
+    private static final String MAP_VIEW_BUNDLE_KEY = "KEY";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
