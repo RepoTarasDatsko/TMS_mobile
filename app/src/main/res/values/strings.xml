@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="title_activity_order">Заказ</string>
-    <string name="google_android_map_api_key">AIzaSyCkWTss7HhcxJVDl1VCIkN8YHDojYHvo2Y</string>
+    <string name="google_android_map_api_key">KEY</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
